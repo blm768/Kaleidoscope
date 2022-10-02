@@ -3,6 +3,7 @@
 .DS_Store
 .arduino
 .vscode
+/.direnv/
 /.docker_xfer
 .#*
 /output/
