@@ -1,0 +1,7 @@
+[devshell]
+
+packages = [
+  "arduino-cli",
+  "gcc-arm-embedded",
+  "gnumake",
+]
