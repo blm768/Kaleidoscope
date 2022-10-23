@@ -88,6 +88,8 @@
 // Support for the GeminiPR Stenography protocol
 #include "Kaleidoscope-Steno.h"
 
+#include <Kaleidoscope-LED-ActiveModColor.h>
+
 /** This 'enum' is a list of all the macros used by the Model 100's firmware
   * The names aren't particularly important. What is important is that each
   * is unique.
@@ -601,6 +603,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // The hardware test mode, which can be invoked by tapping Prog, LED and the
   // left Fn button at the same time.
   HardwareTestMode  //,
+,
+  
+  ActiveModColorEffect
 );
 
 /** The 'setup' function is one of the two standard Arduino sketch functions.
