@@ -45,6 +45,8 @@
 // Support for shared palettes for other plugins, like Colormap below
 #include "Kaleidoscope-LED-Palette-Theme.h"
 
+#include "Kaleidoscope-LED-Wavepool.h"
+
 // Support for an LED mode that lets one configure per-layer color maps
 #include "Kaleidoscope-Colormap.h"
 
@@ -539,6 +541,8 @@ KALEIDOSCOPE_INIT_PLUGINS(
 
   // The stalker effect lights up the keys you've pressed recently
   StalkerEffect,
+
+  WavepoolEffect,
 
   // The LED Palette Theme plugin provides a shared palette for other plugins,
   // like Colormap below
